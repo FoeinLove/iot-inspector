@@ -1,7 +1,10 @@
 # IoT-Inspector
+This software was developed to collect WiFi network traffic for research purposes. If you publish any results with data collected using this software, please cite the following paper:
+
+**Keeping the Smart Home Private with Smart(er) IoT Traffic Shaping.** Noah Apthorpe, Danny Yuxing Huang, Dillon Reisman, Arvind Narayanan, Nick Feamster. 2018.
 
 ## System requirements
-The IoT Inspector was developed and tested for use on a Raspberry Pi v3.  It should also work on any Linux machine that has both a WiFi interface that can be used as an access point and a wired connection to the internet.
+This software was developed and tested for use on a Raspberry Pi v3.  It should also work on any Linux machine that has both a WiFi interface that can be used as an access point and a wired connection to the internet.
 
 ## Install instructions
 
@@ -21,9 +24,9 @@ $ cd iot-inspector
 ```
 
 #### Change WiFI SSID and Password
-The defualt SSID of the WiFi network created by IoT-Inspector is "Pi3-AP". You may wish to change this, especially if you have multiple IoT-Inspectors running in proximity.  
+The defualt SSID of the WiFi network created by this software is "Pi3-AP". You may wish to change this, especially if you have multiple Raspberry Pi's running this software in proximity.  
 
-The default password for the WiFi network created by IoT-Inspector is "raspberry".  You should change this password to prevent others from using the IoT-Inspector network. 
+The default password for the WiFi network created by this software is "raspberry".  You should change this password to prevent others from using the WiFi network. 
 
 The SSID and password are set in the file `iot-inspector/config/hostapd.conf`. Open this file in a text editor and change the values of `ssid` and `wpa_passphrase` to new a SSID and password, respectively.  
 
