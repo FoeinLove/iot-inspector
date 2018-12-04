@@ -1,7 +1,7 @@
 # IoT-Inspector
 This software was developed to collect WiFi network traffic for research purposes. If you publish any results with data collected using this software, please cite the following paper:
 
-**Keeping the Smart Home Private with Smart(er) IoT Traffic Shaping.** Noah Apthorpe, Danny Yuxing Huang, Dillon Reisman, Arvind Narayanan, Nick Feamster. 2018.
+**Keeping the Smart Home Private with Smart(er) IoT Traffic Shaping.** Noah Apthorpe, Danny Yuxing Huang, Dillon Reisman, Arvind Narayanan, Nick Feamster. 2018. [arXiv Preprint.](https://arxiv.org/abs/1812.00955)
 
 ## System requirements
 This software was developed and tested for use on a Raspberry Pi v3.  It should also work on any Linux machine that has both a WiFi interface that can be used as an access point and a wired connection to the internet.
