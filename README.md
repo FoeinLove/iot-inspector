@@ -12,7 +12,7 @@ This software was developed and tested for use on a Raspberry Pi v3.  It should 
 Connect the Raspberry Pi to the Internet using a wired Ethernet connection.  You can then access the Raspberry Pi from your computer using ssh.
 
 #### Change user password
-The default password for the "pi" user (with sudo privileges) is "raspberry". You should change this using the `passwd` command if the pi has a public IP address or is on a LAN open to other users. 
+The default password for the "pi" user (with sudo privileges) is "raspberry". *You should change this using the `passwd` command if the Pi has a public IP address or is on a LAN open to other users.* 
 
 #### Download code
 Execute the following commands from the terminal of the Raspberry Pi:
@@ -26,7 +26,7 @@ $ cd iot-inspector
 #### Change WiFi SSID and Password
 The defualt SSID of the WiFi network created by this software is "Pi3-AP". You may wish to change this, especially if you have multiple Raspberry Pi's running this software in proximity.  
 
-The default password for the WiFi network created by this software is "raspberry".  **You should change this password to prevent others from using the WiFi network.** 
+The default password for the WiFi network created by this software is "raspberry".  *You should change this password to prevent others from using the WiFi network.*
 
 The SSID and password are set in the file `iot-inspector/config/hostapd.conf`. Open this file in a text editor and change the values of `ssid` and `wpa_passphrase` to new a SSID and password, respectively.  
 
